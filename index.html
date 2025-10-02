@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class ="left">
+            <a href="/"> </a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/vaishnavk87" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/vaishnav-kun/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:vaishnav8791@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--Section 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2> Hi, I'm Vaishnav Kunhiraman </h2>
+                <p> I am a Computer Science graduate from the University of Toronto with a focus on Geographic Information Systems. 
+                    I have over four years of experience with Python, Java, SQL, and full-stack web development, along with hands-on experience in data quality assurance 
+                    from my work at Elections Ontario. I enjoy building practical software solutions, optimizing data workflows, and collaborating on projects that connect technology 
+                    with real-world impact.</p>
+                <div class ="link">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+
+                    <a href="https://drive.google.com/file/d/1sBLQkCMB4MJPPHOnEnbSIxoMRrDphu0E/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Resume</span>
+                    </a>
+
+                </div>
+            </div>
+            
+            <div class="image">
+                <img src="website photo/photo.webp" alt="Vaishnav Kunhiraman Headshot">
+            </div>
+        </section>
+
+        <!--Section 2: Skills -->
+        <section id="skills" class="skills-section">
+            <div class="skills-content">
+                <div class="text">
+                    <h2>Skills</h2>
+                    <p>I have strong technical skills in Python, Java, C, SQL, JavaScript, HTML, and CSS, with experience in front-end frameworks like React and back-end tools
+                         such as Node.js. I am proficient in data analysis and visualization using libraries including NumPy, Pandas, and Matplotlib, as well as database management 
+                         with MySQL and Oracle. My background also includes working with Linux/Unix environments, Git/GitHub, bash scripting, and Agile development practices. 
+                         Additionally, I bring experience in UI/UX design through Figma, GIS applications with ArcGIS, and software development principles such as clean architecture
+                         and object-oriented programming.</p>
+                </div>
+
+                <div class="cells">
+                <div class="cell">
+                    <img src="website photo/python.webp" alt="Python photo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/Java.webp" alt="Java photo">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/SQL.webp" alt="SQL photo">
+                    <span>SQL</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/Javascript.webp" alt="JavaScript photo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/HTML.webp" alt="HTML photo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/CSS.webp" alt="CSS photo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/ASM.webp" alt="Assembly photo">
+                    <span>Assembly</span>
+                </div>
+                <div class="cell">
+                    <img src="website photo/React.webp" alt="React photo">
+                    <span>React</span>
+                </div>
+
+                <div class="cell">
+                    <img src="website photo/ArcGIS_logo.webp" alt="ArcGIS photo">
+                    <span>ArcGIS</span>
+                </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--Section 3: Projects-->
+        <section id="projects">
+            <h2>Projects</h2>
+          
+            <article class="project">
+              <h3>GPA &amp; My University App (Java, Git, Swing/JPanels)</h3>
+              <p>
+                In a team built a Java desktop application for university students with grade tracking, checklists, a daily planner, 
+                and GPA calculations per-course using a syllabus and cumulative. Implemented a secure data layer for storing user information, 
+                enabling seamless entry of new assignment marks with automatic recalculation. Applied clean architecture, SOLID principles, 
+                and patterns (strategy, dependency injection) for modularity and easy extension. Additionally, organized use cases, controllers, 
+                and factories to keep interactions smooth and maintainable.
+              </p>
+            </article>
+          
+            <article class="project">
+              <h3>Sokoban (Assembly, RISC-V)</h3>
+              <p>
+                Built a Sokoban puzzle game in RISC-V assembly driving an 8x8 LED matrix, including character movement, box pushing, 
+                and collision detection. Interfaced with a D-pad and switches for input and reset behavior, and programmed robust 
+                movement logic for smooth gameplay and accurate visual updates. Added automatic puzzle generation and progress tracking 
+                to boost replayability and engagement.
+              </p>
+            </article>
+
+            <article class="project">
+                <h3>Meepo Is You (Python, Pygame)</h3>
+                <p>
+                  Developed a 2D puzzle game with movement in all directions and block-pushing mechanics to achieve win-or-lose conditions 
+                  and dynamically change the controlled object. Leveraged Python features such as tuples, lists, file I/O, and OOP principles. 
+                  Refactored code for readability and performance, added unit tests to ensure game stability, and produced user documentation 
+                  to guide players and improve overall experience.
+                </p>
+              </article>
+            
+              <article class="project">
+                <h3>Canada Census R Project (R, RStudio, ggplot2, tidyr, dplyr)</h3>
+                <p>
+                  Conducted an analysis of Canada Census data (2006–2021) by plotting births and immigration trends using ggplot2. 
+                  Applied data cleaning with tidyr and dplyr to prepare datasets and used IDW (Inverse Distance Weighting) interpolation 
+                  for spatially continuous maps of population change. Employed clustering algorithms to reveal distinct population groups 
+                  and regional patterns, offering deeper insights into Canada’s demographic dynamics.
+                </p>
+              </article>
+
+              <article class="project">
+                <h3>FiscalFriend (Figma Prototype, Usability Testing, UX Research)</h3>
+                <p>
+                  Designed a high-fidelity financial management app prototype, “FiscalFriend,” focused on budgeting, goal setting, and spending insights. 
+                  Built interactive flows in Figma including Budget Score breakdowns, Spending Summaries, Goals, and Transaction tracking. 
+                  Conducted usability testing with 12 participants, combining quantitative metrics (task completion time, click counts) and qualitative feedback 
+                  to evaluate design clarity and effectiveness. Identified navigation issues, budget score confusion, and visual design shortcomings, then iteratively 
+                  refined the prototype with clearer layouts, progress indicators, and improved accessibility. Reflected on design lessons and proposed improvements 
+                  for future iterations, including enhanced interactivity and visual identity.
+                </p>
+              </article>
+          </section>
+          
+
+
+        <!--Section 4: Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    <p>Feel free to reach out with any questions, opportunities, or collaborations. I will get back to you as 
+                        soon as possible. I am always open to connecting and exploring how we can work together</p>
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
